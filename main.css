@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root {
+  --size-font: 16px;
+  --boder-common: 1px solid #222;
+}
+*{margin:0; padding:0;}
+.container {
+
+
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+tr,
+td {
+  font-size: var(--size-font);
+  border: var(--boder-common);
+  border-style: solid;
+}
+
+.container table {
+  border: var(--boder-common);
+  width: 70%;
+  height: 50vh;
+  text-align: center;
+
+}
