@@ -30,3 +30,10 @@ $(document).ready(function () {
     $(target).show();
   });
 });
+
+  $(".notice li:first").click(function(){
+	$("#modal").addClass("active");
+  });
+  $(".btn").click(function(){
+	$("#modal").removeClass("active");
+  });
