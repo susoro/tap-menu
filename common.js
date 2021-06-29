@@ -12,7 +12,6 @@ $(document).ready(function () {
   // button
   $tabButtonItem.find('a').on('click', function (e) {
     var target = $(this).attr('href');
-
     $tabButtonItem.removeClass(activeClass);
     $(this).parent().addClass(activeClass);
     $tabSelect.val(target);
